@@ -19,8 +19,14 @@
                 <TableCom />
             </div>
             <div class="p-16">
-                <div id="status" class="bg-white p-10">
-                    1
+                <div id="status" class="bg-white p-5 w-30 text-center">
+                    <p class="border-b-2 border-black border-opacity-10">Sponsors</p>
+                    <div class="flex flex-col">
+                        <img src="@/assets/img/image.png" alt="Sponsor" class="border-2 border-black rounded-full mt-5 hover:shadow-xl hover:shadow-black cursor-pointer transition-all duration-500">
+                        <img src="@/assets/img/image.png" alt="Sponsor" class="border-2 border-black rounded-full mt-5 hover:shadow-xl hover:shadow-black cursor-pointer transition-all duration-500">
+                        <img src="@/assets/img/image.png" alt="Sponsor" class="border-2 border-black rounded-full mt-5 hover:shadow-xl hover:shadow-black cursor-pointer transition-all duration-500">
+                        <img src="@/assets/img/image.png" alt="Sponsor" class="border-2 border-black rounded-full mt-5 hover:shadow-xl hover:shadow-black cursor-pointer transition-all duration-500">
+                    </div>
                 </div>
             </div>
         </div>

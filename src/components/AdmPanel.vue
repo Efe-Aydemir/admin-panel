@@ -4,11 +4,13 @@
             <p class="opacity-70 text-xs font-semibold hover:opacity-100 transition-all duration-300 cursor-default">MENU</p>
         <hr class="opacity-40 my-2"/>
         <div class="flex flex-col gap-10">
-            <div class="flex gap-5 items-center opacity-80 cursor-pointer hover:opacity-100 transition-all duration-300 hover:border-r-[2px]  hover:border-white hover:bg-gray-800 hover:py-3 hover:rounded-md hover:px-3">
+            <router-link to="/about">
+                <div  class="flex gap-5 items-center opacity-80 cursor-pointer hover:opacity-100 transition-all duration-300 hover:border-r-[2px]  hover:border-white hover:bg-gray-800 hover:py-3 hover:rounded-md hover:px-3">
             <vue-feather type="phone" size="20">
         </vue-feather>
         <p>Contact</p>
         </div>
+            </router-link>
         <div class="flex gap-5 items-center opacity-80 cursor-pointer hover:opacity-100 transition-all duration-300 hover:border-r-[2px]  hover:border-white hover:bg-gray-800 hover:py-3 hover:rounded-md hover:px-3">
             <vue-feather type="activity" size="20"></vue-feather>
             <p>Status</p>
